@@ -64,6 +64,7 @@ body {
 /* SECCION INFORMACION */
 .seccion-informacion {
     margin:10rem 2rem 2rem 2rem;
+    background-color:blue;
 }
 
 .elementos-informacion {
@@ -86,7 +87,6 @@ body {
 }
 
 .elementos-informacion a:hover {
-    color: #a3a3a3;
     box-shadow:0px 0.5px 20px black;
     transition-duration:0.5s;
 }
@@ -104,4 +104,53 @@ body {
 .elementos-informacion p {
     color: #b8b8b8;
     font-size:1.2rem;
+}
+
+/* SECCION SERVICIOS */
+.seccion-servicios {
+    background-color:red;
+    margin:2rem;
+}
+
+.contenedor-servicios-grid {
+    margin:2rem;
+    background-color:green;
+    display:grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.contenedor-servicios-grid div {
+    background-color:blue;
+    margin:1rem;
+    padding:6rem 0rem;
+    text-align:center;
+}
+
+/* SECCION PIE DE PAGINA */
+hr {
+    width:98%;
+}
+
+.seccion-pie-pagina {
+    background-color:red;
+    display:flex;
+}
+
+.ladoA-pie-pagina {
+    background-color: green;
+    margin:1rem;
+}
+
+.ladoB-pie-pagina {
+    background-color: blue;
+    margin:1rem;
+    display:grid;
+    grid-template-columns: 33% 33% 33%;
+    width:100%;
+}
+
+.ladoB-pie-pagina div {
+    margin:0.5rem ;
+    background-color:green;
+    text-align:center;
 }
