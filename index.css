@@ -64,7 +64,6 @@ body {
 /* SECCION INFORMACION */
 .seccion-informacion {
     margin:10rem 2rem 2rem 2rem;
-    background-color:blue;
 }
 
 .elementos-informacion {
@@ -108,41 +107,69 @@ body {
 
 /* SECCION SERVICIOS */
 .seccion-servicios {
-    background-color:red;
-    margin:2rem;
+    margin:3rem 2rem;
+}
+
+.seccion-servicios h2 {
+    font-size:2.5rem;
+    text-align:center;
+    padding:0.5rem;
+    color: #6a6a6a;
 }
 
 .contenedor-servicios-grid {
     margin:2rem;
-    background-color:green;
     display:grid;
     grid-template-columns: 33% 33% 33%;
 }
 
 .contenedor-servicios-grid div {
-    background-color:blue;
+    background-color: #c1c1c1;
     margin:1rem;
     padding:6rem 0rem;
     text-align:center;
+    color: #6a6a6a;
+    border-radius:5px;
+}
+
+.contenedor-servicios-grid div:hover {
+    transition-duration:1s;
+    background-color: #2d2d2d;
 }
 
 /* SECCION PIE DE PAGINA */
 hr {
-    width:98%;
+    width:96%;
 }
 
 .seccion-pie-pagina {
-    background-color:red;
     display:flex;
 }
 
 .ladoA-pie-pagina {
-    background-color: green;
     margin:1rem;
 }
 
+.ladoA-pie-pagina a {
+    text-decoration:none;
+    color: #6a6a6a;
+    letter-spacing: 0.5rem;
+    margin:0rem 0rem 0rem 1rem;
+    font-size:1.3rem;
+}
+
+.ladoA-pie-pagina a:hover {
+    transition-duration:0.5s;
+    color: #2d2d2d;
+    text-shadow:0px 0px 5px #2d2d2d;
+}
+
+.ladoA-pie-pagina p {
+    font-size:1rem;
+    color:#6a6a6a;
+}
+
 .ladoB-pie-pagina {
-    background-color: blue;
     margin:1rem;
     display:grid;
     grid-template-columns: 33% 33% 33%;
@@ -151,6 +178,13 @@ hr {
 
 .ladoB-pie-pagina div {
     margin:0.5rem ;
-    background-color:green;
     text-align:center;
+    color: #6a6a6a;
+    font-size:1rem;
+}
+
+.ladoB-pie-pagina div:hover {
+    transition-duration:0.5s;
+    color:#2d2d2d;
+    text-shadow:0px 0px 5px #2d2d2d;
 }
