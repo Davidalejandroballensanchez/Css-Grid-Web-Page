@@ -61,6 +61,11 @@ body {
     transition-duration:0.5s;
 }
 
+/* SECCION HOGAR */
+.seccion-hogar {
+    margin:10rem 2rem 2rem 2rem;
+}
+
 /* SECCION INFORMACION */
 .seccion-informacion {
     margin:10rem 2rem 2rem 2rem;
@@ -90,11 +95,11 @@ body {
     transition-duration:0.5s;
 }
 
-.elementos-informacion H1, p {
+.elementos-informacion H2, p {
     text-align:center;
 }
 
-.elementos-informacion H1 {
+.elementos-informacion H2 {
     font-size:2.5rem;
     color: #6a6a6a;
     margin:0rem;
@@ -110,7 +115,7 @@ body {
     margin:3rem 2rem;
 }
 
-.seccion-servicios h2 {
+.seccion-servicios H2 {
     font-size:2.5rem;
     text-align:center;
     padding:0.5rem;
