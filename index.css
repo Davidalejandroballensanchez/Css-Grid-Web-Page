@@ -68,7 +68,7 @@ body {
 
 /* SECCION INFORMACION */
 .seccion-informacion {
-    margin:10rem 2rem 2rem 2rem;
+    margin:3rem 2rem 2rem 2rem;
 }
 
 .elementos-informacion {
@@ -140,6 +140,11 @@ body {
 .contenedor-servicios-grid div:hover {
     transition-duration:1s;
     background-color: #2d2d2d;
+}
+
+/* SECCION DONAR */
+.seccion-donar {
+    margin:3rem 2rem;
 }
 
 /* SECCION PIE DE PAGINA */
